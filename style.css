@@ -1,0 +1,46 @@
+body {
+  background-color: #f0f4f8;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 350px;
+}
+
+h1 {
+  color: #333;
+}
+
+#fortune-box {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #e2e8f0;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #2d3748;
+}
+
+#fortune-btn {
+  background-color: #6b46c1;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#fortune-btn:hover {
+  background-color: #553c9a;
+}
